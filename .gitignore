@@ -17,11 +17,14 @@ __pycache__/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# Dados sensíveis (se houver)
+# Dados brutos (arquivos grandes / sensíveis)
 *.csv
 *.xlsx
 # Manter apenas o dataset principal
-!BASE\ DE\ DADOS\ PEDE\ 2024\ -\ DATATHON.xlsx
+!data/BASE\ DE\ DADOS\ PEDE\ 2024\ -\ DATATHON.xlsx
+
+# Pasta de bases legadas
+Bases/
 
 # IDE
 .vscode/

@@ -17,7 +17,7 @@ st.set_page_config(
 @st.cache_resource
 def carregar_modelo():
     """Carrega o modelo treinado e seus artefatos."""
-    caminho_modelo = Path(__file__).resolve().parent / "modelo_risco_defasagem.pkl"
+    caminho_modelo = Path(__file__).resolve().parent / "modelo" / "modelo_risco_defasagem.pkl"
     if not caminho_modelo.exists():
         st.error(
             "⚠️ Arquivo modelo_risco_defasagem.pkl não encontrado. "
