@@ -1,0 +1,41 @@
+# .gitignore
+
+# Ambiente virtual
+TechFase5/
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Dados sensíveis (se houver)
+*.csv
+*.xlsx
+# Manter apenas o dataset principal
+!BASE\ DE\ DADOS\ PEDE\ 2024\ -\ DATATHON.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Modelo (arquivo grande)
+# modelo_risco_defasagem.pkl  # Descomentar se o arquivo for muito grande
+
+# Logs
+*.log
